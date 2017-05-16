@@ -10,8 +10,11 @@ resta(){
 
 }
 
-suma(){
-
+suma(int A, int B){
+int A = x;
+  int B = y;
+  int resultado = A+B;
+  printf("resultado = "resultado,%d);
 }
 
 division(){
