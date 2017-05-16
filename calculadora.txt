@@ -8,6 +8,14 @@ main(){
 
 resta(){
 
+	printf("\n         -> Introduzca el primer numero: ");
+	scanf("%i",&a);
+	printf("\n         -> Introduzca el segundo numero: ");
+	scanf("%i",&b);
+	resultado=a-b;
+	printf("\n         La RESTA de %i - %i es igual a %i",a,b,resultado);
+	break;
+
 }
 
 suma(){
