@@ -1,0 +1,27 @@
+int a;
+int b;
+int resultado; 
+
+main(){
+
+}
+
+resta(){
+
+}
+
+suma(){
+
+}
+
+division(){
+
+}
+
+multiplicacion(){
+
+}
+
+menu(){
+
+}
