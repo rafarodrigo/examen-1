@@ -23,13 +23,34 @@ suma(){
 }
 
 division(){
+	printf("\n         -> Introduzca el dividendo: ");
+	scanf("%i",&a);
+	printf("\n         -> Introduzca el divisor: ");
+	scanf("%i",&b);
+	if (b!=0)  /* Si el divisor es distinto de 0 realizara la operacion */
+	{
 
+		resultado=a/b;
+
+		printf("\n         El cociente de la DIVISION de %i entre %i es igual a %i",a,b,resultado);
+
+	}else printf("\n         No se puede realizar esa division porque el divisor es 0!!");  /* Si el divisor es igual a 0 muestra este mensaje de error */
+	break;
 }
 
 multiplicacion(){
 
+	printf("\n         -> Introduzca el primer multiplicando: ");
+	scanf("%i",&a);
+	printf("\n         -> Introduzca el segundo multiplicando: ");
+	scanf("%i",&b);
+	resultado=a*b;
+	printf("\n         La MULTIPLICACION de %i * %i es igual a %i",a,b,resultado);
+	break;
 }
 
 menu(){
+
+}
 
 }
